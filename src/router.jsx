@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
-
+import NotFound from "./pages/NotFound";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +18,7 @@ const router = createBrowserRouter([
       { path: "/projects", element: <Projects /> },
       { path: "/terms", element: <Terms /> },
       { path: "/privacy", element: <Privacy /> },
+      { path: "*", element: <NotFound /> },
     ],
   },
 ]);
