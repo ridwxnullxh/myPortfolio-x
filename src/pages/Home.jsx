@@ -89,7 +89,7 @@ const Home = () => {
             <h3 className="pt-2 pb-4 text-2xl font-thin">
               My name is Osuolale Ridwanullah Babatunde.
             </h3>
-            <p className="text-base font-thin mb-5 leading-2">
+            <p className="text-base font-thin mb-5 leading-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               pariatur eaque reprehenderit beatae nulla excepturi error enim
               exercitationem recusandae accusamus. Id, amet eius fugiat voluptas
