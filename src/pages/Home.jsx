@@ -15,7 +15,7 @@ const Home = () => {
             </p>
             <div className="space-y-4">
               <h2 className="text-xl md:text-2xl text-zinc-600">
-                My name is Osuolale Ridwanullah
+                Hello( ); I'm Osuolale Ridwanullah
               </h2>
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-br from-blue-600 to-pink-700 text-transparent bg-clip-text">
                 I am a Professional Software Engineer
@@ -24,14 +24,14 @@ const Home = () => {
 
             <div className="flex flex-col text-xl md:flex-row lg:px-0 md:mb-24 lg:mb-0 md:justify-center lg:justify-start">
               <NavLink
-                className="font-medium text-white bg-blue-700 hover:bg-blue-800 transition duration-300 border w-full py-3 align-middle rounded-md md:w-[200px] md:p-6 md:h-[80px] md:mr-10"
+                className="font-medium text-white text-center bg-blue-700 hover:bg-blue-800 transition duration-300 border w-full py-3 rounded-md md:w-[200px] md:p-6 md:h-[80px] md:mr-10"
                 to="/resume"
               >
                 Resume
               </NavLink>
 
               <NavLink
-                className="font-medium text-black bg-white hover:bg-black hover:text-white transition duration-300 border border-black w-full py-3 rounded-md mt-3 md:m-0 mb-10 md:w-[200px] md:p-6 md:h-[80px]"
+                className="font-medium text-black bg-white hover:bg-black hover:text-white transition duration-300 border border-black w-full py-3 rounded-md mt-3 md:m-0 mb-10 md:w-[200px] md:p-6 md:h-[80px] text-center"
                 to="/projects"
               >
                 Projects
