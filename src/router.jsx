@@ -7,10 +7,12 @@ import Projects from "./pages/Projects";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <NotFound />,
     children: [
       { path: "/", element: <Home /> },
       { path: "/contact", element: <Contact /> },
@@ -18,7 +20,6 @@ const router = createBrowserRouter([
       { path: "/projects", element: <Projects /> },
       { path: "/terms", element: <Terms /> },
       { path: "/privacy", element: <Privacy /> },
-      { path: "*", element: <NotFound /> },
     ],
   },
 ]);
